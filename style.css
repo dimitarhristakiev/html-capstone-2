@@ -1,0 +1,171 @@
+body {
+    text-align:center;
+    background-color: rgb(243, 243, 243);
+    justify-content: center;
+    display:block;
+    margin:0;
+    font-family:'Raleway',sans-serif; 
+    color:rgb(129, 129, 129);
+}
+
+
+div {
+    display:block;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container {
+    background-color:black;
+    position:relative;
+    padding-top:15rem;
+    text-align:center;
+    color:white;
+    padding-bottom:15rem;
+  
+}
+
+.description-container {
+    position:relative;
+    padding-top:5rem;
+    text-align:center;
+    padding-bottom:5rem;
+}
+.me-img{
+    border-radius:10rem;
+}
+.img-desc{
+    padding-top:1rem;
+}
+
+.title {
+    display:inline-block
+}
+h1{
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 700;
+    unicode-bidi: isolate;
+    font-family:'Raleway',sans-serif;
+}
+
+
+hr{
+    width:5%;
+    border-radius:10rem;
+    opacity:50;
+    border-style:dotted;
+}
+
+
+.raleway-1 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size:3rem;
+  display:flex;
+}
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid;
+  width: 0;
+  animation: typing infinite;
+  animation-duration: 3s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+  letter-spacing:.15rem;
+}
+  
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+p{
+        display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.intro {
+    padding-top:0.2rem;
+    margin:auto;
+    width:30%;
+}
+.img-desc h2 {
+    font-size:2rem;
+}
+.skills-container{
+    padding-top:2rem;
+    text-align:center;
+    padding-bottom:2rem;
+}
+.skills-container h2 {
+    font-size:2rem;
+}
+.display-skills{
+    display:grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    gap:2rem;
+    padding-bottom:4rem;
+   
+}
+.skills-img {
+    position:relative;
+    width:15em;
+    height:100%;
+    grid-row: span 1/3;
+}
+.display-skills  h2 {
+    font-size:1rem;
+}
+
+.contact-container {
+    padding-top:2rem;
+    padding-bottom: 5rem;
+}
+.contact-container h2 {
+    font-size:2rem;
+}
+
+.btn-div {
+    padding-top:1rem;
+}
+.btn {
+    background-color:rgb(129, 129, 129);
+    color: white;
+    text-decoration: none;
+    padding:10px 20px 10px 20px;
+    border-radius:10px;
+    font-weight: 500;
+}
+.footer-container {
+    padding-top:5rem;
+    padding-bottom:5rem;
+    background-color: rgb(48, 48, 48);
+}
+.socials a {
+    color:rgb(202, 202, 202);
+    text-decoration: none;
+    
+}
+.socials a:hover{
+    color:white;
+}
+.socials{
+    word-spacing: 3rem;
+}
