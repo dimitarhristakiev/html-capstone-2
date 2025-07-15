@@ -74,7 +74,7 @@ hr{
   border-right: 2px solid;
   width: 0;
   animation: typing infinite;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
   animation-timing-function: steps(30, end);
   animation-fill-mode: forwards;
   letter-spacing:.15rem;
